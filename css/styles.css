@@ -46,7 +46,9 @@ body {
 .source:before {
   content: "—";
 }
-.citation {
+.citation,
+.tag,
+.tag:before {
   font-style: italic;
 }
 .citation:before {
@@ -58,16 +60,9 @@ body {
   font-style: normal;
 }
 
-.tag {
-  font-size: 1rem;
-  font-style: italic;
-}
-
 .tag:before {
   content: "  #";
   white-space: pre;
-  font-style: italic;
-  font-size: 1rem;
 }
 
 #loadQuote {

@@ -105,8 +105,6 @@ function printQuote() {
   // call the function to randomly change the background color
   changeBackgroundColor();
   autoRefresh();
-  //clearInterval(nIntervID);
-  //nIntervID = window.setInterval(printQuote, 3000);
 }
 
 function changeBackgroundColor() {
